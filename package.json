@@ -1,0 +1,20 @@
+{
+  "name": "websocket",
+  "version": "0.0.0",
+  "description": "thin layer on top of websockets",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "ws": "~0.4.25",
+    "express": "~3.2.4"
+  }
+}

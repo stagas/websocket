@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>websocket</title>
+    <link rel="stylesheet" href="../build/build.css">
+  </head>
+  <body>
+    <script src="../build/build.js"></script>
+    <script>
+    
+    var websocket = require('websocket');
+
+    var ws = websocket();
+
+    ws.on('message', function(msg){
+      console.log(msg.data);
+    });
+    
+    ws.on('open', function(){
+      ws.send('hello there');
+    });
+    
+    </script>
+  </body>
+</html>

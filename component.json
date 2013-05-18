@@ -1,0 +1,12 @@
+{
+  "name": "websocket",
+  "version": "0.0.1",
+  "description": "thin layer on top of websockets with reconnection",
+  "keywords": ["websocket"],
+  "author": "stagas",
+  "license": "MIT",
+  "dependencies": {
+    "component/emitter": "*"
+  },
+  "scripts": ["index.js"]
+}
